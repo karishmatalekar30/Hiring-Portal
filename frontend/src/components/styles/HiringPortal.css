@@ -1,0 +1,54 @@
+/* HiringPortal.css */
+.form-container {
+  max-width: 1000px;
+  margin: 5% auto;
+  background-color: #e0f7fa;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.form-title {
+  text-align: center;
+  color: #00796b;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #b2dfdb;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-button {
+  background-color: #00796b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.form-button:hover {
+  background-color: #004d40;
+}
